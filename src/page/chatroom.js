@@ -7,7 +7,7 @@ import axios from 'axios';
 import '../css/chatroom.css';
 
 
-const socket = new W3CWebSocket('ws://websocket420.herokuapp.com:8080');
+const socket = new W3CWebSocket('wss://websocket420.herokuapp.com:8080');
 
 function SidebarPlaylist(props) {
     var tracks = [];
